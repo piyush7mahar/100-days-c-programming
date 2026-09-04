@@ -2,5 +2,13 @@
 #include <stdio.h>
 int main() 
 {
-    int 
+    int c;
+    printf("ENTER TEMPERATURE IN CELSIUS=");
+    scanf("%d",&c);
+
+    int f;
+    f=c*(9/5)+32;
+    printf("TEMPERATURE IN FAHRENHEIT=%d",f);
+
+    return 0;
 }
